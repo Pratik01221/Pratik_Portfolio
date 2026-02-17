@@ -3,7 +3,7 @@
 :root {
   --bg: #020617;
   --bg-gradient: linear-gradient(180deg, #020617, #020b2e);
-  --text: #e5e7eb;
+  --text: #04070b;
   --subtext: #cbd5f5;
   --accent: #38bdf8;
   --card: rgba(255,255,255,0.04);
@@ -14,7 +14,7 @@
   --bg-gradient: linear-gradient(180deg, #f8fafc, #e2e8f0);
   --text: #020617;
   --subtext: #334155;
-  --accent: #2563eb;
+  --accent: #5c6b8b;
   --card: rgba(0,0,0,0.06);
 }
 
@@ -67,9 +67,10 @@ nav {
 
 nav a {
   margin-left: 25px;
-  color: #e5e7eb;
+  color: #000000;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
+  bold: 500;
 }
 
 nav a:hover {

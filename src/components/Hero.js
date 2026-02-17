@@ -25,7 +25,10 @@ export default function Hero() {
 
         <div style={{ display: "flex", gap: "20px", marginTop: "30px" }}>
           <button style={primaryBtn}>Check out my work!</button>
-          <button style={secondaryBtn}>Check Out Project List</button>
+          <a href="/resume.pdf" download style={{ textDecoration: "none" }}>
+  <button style={secondaryBtn}>Download Resume</button>
+</a>
+
         </div>
       </div>
 
